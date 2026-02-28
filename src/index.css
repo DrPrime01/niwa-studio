@@ -1,1 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap");
 @import "tailwindcss";
+
+@theme {
+  --font-bricolage-grotesque: "Bricolage Grotesque", sans-serif;
+
+  --color-brand-jaffa: #f47948;
+  --color-brand-fun-green: #056839;
+  --color-grey-13: #333333;
+
+  --animate-back-n-forth: back-and-forth 1.75s linear infinite;
+
+  @keyframes back-and-forth {
+    0% {
+      transform: translateX(0);
+    }
+    25% {
+      transform: translateX(-5px);
+    }
+    50% {
+      transform: translateX(0);
+    }
+    75% {
+      transform: translateX(5px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+}
+
+body {
+  font-family: var(--font-bricolage-grotesque);
+}
+
+.nav-texts {
+  @apply font-semibold text-sm leading-5 -tracking-[0.7%];
+}
+
+.footer-navstexts {
+  @apply font-normal text-xl leading-8 -tracking-[0.4%];
+}

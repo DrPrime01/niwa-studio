@@ -6,7 +6,7 @@ export default function MainLayout() {
   return (
     <div className="w-full overflow-x-hidden">
       <Navbar />
-      <main className="min-h-screen">
+      <main className="min-h-screen mt-22">
         <Outlet />
       </main>
       <Footer />

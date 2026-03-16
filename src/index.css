@@ -1,10 +1,58 @@
 @import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap");
 @import "tailwindcss";
 
+@font-face {
+  font-family: "LC Moji A";
+  src:
+    url("/public/fonts/lc-moji/LCTMogi-A.ttf") format("truetype"),
+    url("/public/fonts/lc-moji/LCMogi-A.otf") format("opentype"),
+    url("/public/fonts/lc-moji/LCTMogi-A.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "LC Moji B";
+  src:
+    url("/public/fonts/lc-moji/LCTMogi-B.ttf") format("truetype"),
+    url("/public/fonts/lc-moji/LCMogi-B.otf") format("opentype"),
+    url("/public/fonts/lc-moji/LCTMogi-B.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "LC Moji C";
+  src:
+    url("/public/fonts/lc-moji/LCTMogi-C.ttf") format("truetype"),
+    url("/public/fonts/lc-moji/LCMogi-C.otf") format("opentype"),
+    url("/public/fonts/lc-moji/LCTMogi-C.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Nohemi";
+  src:
+    url("/public/fonts/Nohemi-Font/Nohemi-Regular.woff") format("woff"),
+    url("/public/fonts/Nohemi-Font/Nohemi-Regular.ttf") format("truetype"),
+    url("/public/fonts/Nohemi-Font/Nohemi-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
 @theme {
   --font-bricolage-grotesque: "Bricolage Grotesque", sans-serif;
+  --font-lc-moji: "LC Moji B", sans-serif;
+  --font-lc-moji-c: "LC Moji C", sans-serif;
+  --font-nohemi: "Nohemi", sans-serif;
 
   --color-brand-jaffa: #f47948;
+  --color-brand-eminence: #662d91;
   --color-brand-fun-green: #056839;
   --color-grey-13: #333333;
 
@@ -26,6 +74,12 @@
     100% {
       transform: translateX(0);
     }
+  }
+}
+
+@utility scrollbar-hidden {
+  &::-webkit-scrollbar {
+    display: none;
   }
 }
 

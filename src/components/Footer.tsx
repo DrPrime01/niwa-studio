@@ -44,7 +44,9 @@ export default function Footer() {
         </div>
         <div className="flex items-center justify-between mb-25">
           <div className="text-white">
-            <span className="font-bold text-[114.63px] leading-full">Niwa</span>
+            <span className="font-bold text-[114.63px] leading-full font-lc-moji leading-none">
+              Niwa
+            </span>
             <sup className="font-extralight text-[75px] leading-full -tracking-[5%]">
               &copy;
             </sup>

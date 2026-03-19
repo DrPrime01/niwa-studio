@@ -1,3 +1,5 @@
+import Accordion from "../components/Accordion";
+import ClientTestimonial from "../components/ClientTestimonial";
 import ArrowRight from "../components/vectors/ArrowRight";
 import WorkCard from "../components/WorkCard";
 
@@ -117,7 +119,7 @@ export default function Home() {
           className="rounded-4xl z-0 absolute right-4.5 bottom-42.25 lg:bottom-35 lg:right-79.5 w-66.75 h-65.25 md:w-100 md:h-79.5"
         />
       </div>
-      <div className="bg-white px-5 md:px-24 lg:px-28 xl:px-32.5 pt-35.5">
+      <div className="bg-white px-5 md:px-24 lg:px-28 xl:px-32.5 pt-35.5 mb-32.75 md:mb-35 lg:mb-37.75">
         <div className="max-w-204 flex flex-col gap-y-12 md:gap-y-14 lg:gap-y-16 mb-20 md:mb-24 lg:mb-28 xl:mb-34.75">
           <h3 className="text-[40px] md:text-[3rem] lg:text-[4rem] xl:text-[5rem] font-bold leading-none tracking-[2.5%] font-lc-moji">
             Our Process Is Us
@@ -126,6 +128,143 @@ export default function Home() {
             Every project is worth nurturing. And we're here to spore growth &
             yield through the digital experiences we create.
           </p>
+        </div>
+        <Accordion />
+        <div className="mt-18 flex flex-col gap-y-25">
+          <div className="flex items-center justify-between">
+            <h3 className="text-xl md:text-2xl lg:text-4xl xl:text-5xl font-bricolage-grotesque leading-none -tracking-[5%]">
+              Let’s work together !
+            </h3>
+            <button className="flex items-center gap-x-8 self-center cursor-pointer">
+              <span className="font-bricolage-grotesque font-semibold text-base md:text-2xl lg:text-[2rem] xl:text-[2.5rem] -tracking-[0.7%] leading-[145%]">
+                Contact Us
+              </span>
+              <span className="size-11 rounded-full bg-black grid place-items-center">
+                <ArrowRight />
+              </span>
+            </button>
+          </div>
+          <div className="relative">
+            <div className="h-86 lg:h-159.5 w-full mask-[url(/images/works2-mask.png)] mask-no-repeat bg-slate-100"></div>
+            <img
+              src="/images/works-figurine-2.png"
+              alt="figurine"
+              className="object-contain h-[183.63px] w-33.75 absolute top-0 left-1/25"
+            />
+          </div>
+        </div>
+      </div>
+      <div className="flex flex-col mb-34 md:mb-48 lg:mb-56 xl:mb-61">
+        <div className="px-5 md:px-24 lg:px-28 xl:px-32.5 pt-35.5 flex items-center justify-between mb-9.5 md:mb-16 lg:mb-25 xl:mb-32.75">
+          <h3 className="font-lc-moji tracking-[2.5%] text-[2.5rem] md:text-6xl lg:text-7xl xl:text-8xl">
+            <span>Cli</span>
+            <span className="text-black/50">ents</span>
+          </h3>
+          <div className="flex items-center gap-x-3.5">
+            <img src="/icons/brand-arrow.svg" alt="brand-left-arrow" />
+            <img
+              src="/icons/brand-arrow.svg"
+              alt="brand-right-arrow"
+              className="rotate-180"
+            />
+          </div>
+        </div>
+        <div className="relative overflow-x-scroll px-3.5 md:px-5 mb-40.75 lg:mb-39.75 xl:mb-44.5 scrollbar-hidden">
+          <div className="inline-flex gap-x-10 md:gap-x-16 lg:gap-x-24 xl:gap-x-35">
+            <ClientTestimonial
+              image="/images/aptos-logo.png"
+              collabo="Aptos"
+              testimony="Aptos is a next-gen Layer 1 blockchain fueling the future of Web3. We’re rebranding and repositioning the masterbrand."
+            />
+            <ClientTestimonial
+              image="/images/klaviyo-logo.png"
+              collabo="Klaviyo"
+              testimony="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+            />
+            <ClientTestimonial
+              image="/images/google-logo.png"
+              collabo="Google"
+              testimony="Aptos is a next-gen Layer 1 blockchain fueling the future of Web3. We’re rebranding and repositioning the masterbrand. "
+            />
+            <ClientTestimonial
+              image="/images/virgin-logo.png"
+              collabo="Virgin"
+              testimony="Virgin is a next-gen Layer 1 blockchain fueling the future of Web3. We’re rebranding and repositioning the masterbrand."
+            />
+          </div>
+        </div>
+        <div className="flex flex-col gap-y-3 mb-26.25 md:mb-24.5">
+          <div className="relative overflow-x-scroll px-3.5 md:px-5 scrollbar-hidden">
+            <div className="inline-flex gap-x-16 md:gap-x-32 items-center">
+              <span className="uppercase font-bricolage-grotesque font-extrabold text-[4rem] lg:text-8xl shrink-0">
+                we are niwa
+              </span>
+              <img
+                src="/icons/brand-arrow.svg"
+                alt="brand-right-arrow"
+                className="rotate-90 size-16"
+              />
+              <span className="uppercase font-bricolage-grotesque font-extrabold text-[4rem] lg:text-8xl shrink-0">
+                Ready , Set , Plant your ideas
+              </span>
+              <img
+                src="/icons/brand-arrow.svg"
+                alt="brand-right-arrow"
+                className="rotate-90 size-16"
+              />
+            </div>
+          </div>
+          <div className="relative overflow-x-scroll px-3.5 md:px-5 scrollbar-hidden">
+            <div className="inline-flex gap-x-16 md:gap-x-32 items-center">
+              <span className="uppercase font-bricolage-grotesque font-extrabold text-[4rem] lg:text-8xl shrink-0">
+                we are niwa
+              </span>
+              <img
+                src="/icons/brand-arrow.svg"
+                alt="brand-right-arrow"
+                className="rotate-90 size-16"
+              />
+              <span className="uppercase font-bricolage-grotesque font-extrabold text-[4rem] lg:text-8xl shrink-0">
+                OWN YOUR GROWTH
+              </span>
+              <img
+                src="/icons/brand-arrow.svg"
+                alt="brand-right-arrow"
+                className="rotate-90 size-16"
+              />
+            </div>
+          </div>
+        </div>
+        <div className="relative px-5 md:px-24 lg:px-28 xl:px-32.5">
+          <div className="flex flex-col max-w-70 md:ml-25">
+            <h5 className="text-[2rem] leading-none -tracking-[5%] font-bricolage-grotesque">
+              Nurturing Growth
+            </h5>
+            <p className="text-grey-8 text-xl leading-6 -tracking-[5%] font-bricolage-grotesque mt-5 mb-16">
+              We nurture and embody our description “Creative Nurture Room”
+              through our approach in creating digital experiences that yield
+              growth for you.
+            </p>
+            <button className="flex items-center gap-x-8">
+              <span className="leading-6 text-xl -tracking-[5%] font-bricolage-grotesque text-black">
+                Learn the Niwa Way
+              </span>
+              <div className="size-12 rounded-full bg-black grid place-items-center">
+                <img
+                  src="/icons/right-arrow.svg"
+                  alt="arrow right"
+                  className="object-contain animate-back-n-forth"
+                />
+              </div>
+            </button>
+          </div>
+          <div className="hidden md:block h-screen w-[40.28vw] rounded-2xl bg-slate-100 absolute right-[9.03vw] -top-[19vh]">
+            <img
+              src="/images/stamp.png"
+              alt="stamp"
+              className="size-37 absolute -bottom-1/10 -right-1/10"
+            />
+          </div>
         </div>
       </div>
     </div>

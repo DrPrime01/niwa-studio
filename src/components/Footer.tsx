@@ -16,7 +16,7 @@ export default function Footer() {
             Every Collaboration is a chance to grow. Let's get one started.
           </p>
           <button className="flex items-center gap-x-8">
-            <span className="leading-6 text-2xl -tracking-[5%] text-white">
+            <span className="leading-6 text-2xl -tracking-[5%] text-white font-bricolage-grotesque">
               Contact Us
             </span>
             <div className="size-12 rounded-full bg-brand-fun-green grid place-items-center">

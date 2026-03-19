@@ -15,9 +15,9 @@
 @font-face {
   font-family: "LC Moji B";
   src:
-    url("/public/fonts/lc-moji/LCTMogi-B.ttf") format("truetype"),
-    url("/public/fonts/lc-moji/LCMogi-B.otf") format("opentype"),
-    url("/public/fonts/lc-moji/LCTMogi-B.woff2") format("woff2");
+    url("/fonts/lc-moji/LCTMogi-B.ttf") format("truetype"),
+    url("/fonts/lc-moji/LCMogi-B.otf") format("opentype"),
+    url("/fonts/lc-moji/LCTMogi-B.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -26,9 +26,9 @@
 @font-face {
   font-family: "LC Moji C";
   src:
-    url("/public/fonts/lc-moji/LCTMogi-C.ttf") format("truetype"),
-    url("/public/fonts/lc-moji/LCMogi-C.otf") format("opentype"),
-    url("/public/fonts/lc-moji/LCTMogi-C.woff2") format("woff2");
+    url("/fonts/lc-moji/LCTMogi-C.ttf") format("truetype"),
+    url("/fonts/lc-moji/LCMogi-C.otf") format("opentype"),
+    url("/fonts/lc-moji/LCTMogi-C.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -37,12 +37,17 @@
 @font-face {
   font-family: "Nohemi";
   src:
-    url("/public/fonts/Nohemi-Font/Nohemi-Regular.woff") format("woff"),
-    url("/public/fonts/Nohemi-Font/Nohemi-Regular.ttf") format("truetype"),
-    url("/public/fonts/Nohemi-Font/Nohemi-Regular.otf") format("opentype");
+    url("/fonts/Nohemi-Font/Nohemi-Regular.woff") format("woff"),
+    url("/fonts/Nohemi-Font/Nohemi-Regular.ttf") format("truetype"),
+    url("/fonts/Nohemi-Font/Nohemi-Regular.otf") format("opentype");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
+}
+
+:root {
+  /* Enables smooth transitions for keywords like 'auto' */
+  interpolate-size: allow-keywords;
 }
 
 @theme {
@@ -55,6 +60,8 @@
   --color-brand-eminence: #662d91;
   --color-brand-fun-green: #056839;
   --color-grey-13: #333333;
+  --color-grey-3: #dddddd;
+  --color-grey-8: #888888;
 
   --animate-back-n-forth: back-and-forth 1.75s linear infinite;
 

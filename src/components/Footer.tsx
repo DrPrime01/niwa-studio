@@ -11,7 +11,7 @@ export default function Footer() {
   return (
     <footer className="bg-black py-34.25 pb-15">
       <div className="flex flex-col px-5 md:px-24 lg:px-28 xl:px-32.5 mx-auto">
-        <div className="flex flex-col gap-y-16.75 w-1/2">
+        <div className="flex flex-col gap-y-16.75 md:w-1/2">
           <p className="leading-full text-5xl -tracking-[5%] text-white">
             Every Collaboration is a chance to grow. Let's get one started.
           </p>

@@ -14,16 +14,16 @@ export default function Home() {
       </div>
       <div className="relative overflow-x-scroll px-3.5 md:px-5 mb-40.75 lg:mb-39.75 scrollbar-hidden">
         <div className="inline-flex gap-x-3.5 md:gap-x-5">
-          <div className="h-91.25 w-100.5 md:w-112.5 md:h-130 mask-[url(/images/mask-1.png)] bg-[url(/images/hero-img-2.png)] bg-cover bg-center"></div>
-          <div className="h-91.25 w-100.5 md:w-112.5 md:h-130 mask-[url(/images/mask-2.png)] bg-[url(/images/hero-img-3.png)] bg-cover bg-center"></div>
-          <div className="h-91.25 w-100.5 md:w-112.5 md:h-130 mask-[url(/images/mask-1.png)] bg-[url(/images/hero-img-4.png)] bg-cover bg-center"></div>
-          <div className="h-91.25 w-100.5 md:w-112.5 md:h-130 mask-[url(/images/mask-2.png)] bg-[url(/images/hero-img-2.png)] bg-cover bg-center"></div>
-          <div className="h-91.25 w-100.5 md:w-112.5 md:h-130 mask-[url(/images/mask-1.png)] bg-[url(/images/hero-img-3.png)] bg-cover bg-center"></div>
+          <div className="h-91.25 w-100.5 md:w-112.5 md:h-130 mask-[url(/images/mask-1-mb.png)] md:mask-[url(/images/mask-1.png)] bg-[url(/images/hero-img-2.png)] bg-cover bg-center"></div>
+          <div className="h-91.25 w-100.5 md:w-112.5 md:h-130 mask-[url(/images/mask-2-mb.png)] md:mask-[url(/images/mask-2.png)] bg-[url(/images/hero-img-3.png)] bg-cover bg-center"></div>
+          <div className="h-91.25 w-100.5 md:w-112.5 md:h-130 mask-[url(/images/mask-1-mb.png)] md:mask-[url(/images/mask-1.png)] bg-[url(/images/hero-img-4.png)] bg-cover bg-center"></div>
+          <div className="h-91.25 w-100.5 md:w-112.5 md:h-130 mask-[url(/images/mask-2-mb.png)] md:mask-[url(/images/mask-2.png)] bg-[url(/images/hero-img-2.png)] bg-cover bg-center"></div>
+          <div className="h-91.25 w-100.5 md:w-112.5 md:h-130 mask-[url(/images/mask-1-mb.png)] md:mask-[url(/images/mask-1.png)] bg-[url(/images/hero-img-3.png)] bg-cover bg-center"></div>
         </div>
       </div>
       <div className="px-5 md:px-20 lg:px-25 xl:px-29.5 flex md:mb-24.25 lg:mb-58.5">
         <div className="hidden md:block basis-1/2"></div>
-        <div className="flex flex-col gap-y-7.75 basis-1/2">
+        <div className="flex flex-col gap-y-7.75 md:basis-1/2">
           <p className="text-[2rem] md:text-[40px] lg:text-5xl leading-full">
             Creative nurture room is a modern way of calling ourselves a garden.
             We plant, nurture and create impact through digital experiences that

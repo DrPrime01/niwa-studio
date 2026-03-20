@@ -4,9 +4,9 @@
 @font-face {
   font-family: "LC Moji A";
   src:
-    url("/public/fonts/lc-moji/LCTMogi-A.ttf") format("truetype"),
-    url("/public/fonts/lc-moji/LCMogi-A.otf") format("opentype"),
-    url("/public/fonts/lc-moji/LCTMogi-A.woff2") format("woff2");
+    url("/fonts/lc-moji/LCTMogi-A.ttf") format("truetype"),
+    url("/fonts/lc-moji/LCMogi-A.otf") format("opentype"),
+    url("/fonts/lc-moji/LCTMogi-A.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -52,6 +52,7 @@
 
 @theme {
   --font-bricolage-grotesque: "Bricolage Grotesque", sans-serif;
+  --font-lc-moji-a: "LC Moji A", sans-serif;
   --font-lc-moji: "LC Moji B", sans-serif;
   --font-lc-moji-c: "LC Moji C", sans-serif;
   --font-nohemi: "Nohemi", sans-serif;

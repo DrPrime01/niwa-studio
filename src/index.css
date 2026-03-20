@@ -59,9 +59,11 @@
 
   --color-brand-jaffa: #f47948;
   --color-brand-eminence: #662d91;
+  --color-brand-pomegranate: #ee2a24;
   --color-brand-fun-green: #056839;
   --color-grey-13: #333333;
   --color-grey-3: #dddddd;
+  --color-grey-4: #cccccc;
   --color-grey-8: #888888;
 
   --animate-back-n-forth: back-and-forth 1.75s linear infinite;

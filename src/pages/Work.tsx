@@ -6,15 +6,15 @@ export default function Work() {
       <div className="bg-black pt-44.75 pb-17.25 md:pb-25 lg:pb-36 xl:pb-45 flex flex-col">
         <div className="relative overflow-x-scroll mb-25 lg:mb-27 scrollbar-hidden">
           <div className="inline-flex items-center gap-x-14 md:gap-x-16 lg:gap-x-20 xl:gap-x-24 px-5">
-            <span className="font-lc-moji-a text-white text-[5.375rem] md:text-[6.5rem] lg:text-[7.5rem] xl:text-[9rem]">
+            <span className="font-lc-moji-a text-white text-[5.375rem] md:text-[6.5rem] lg:text-[7.5rem] xl:text-[9rem] text-nowrap">
               Work
             </span>
             <span className="inline-block size-16 rounded-full bg-brand-eminence"></span>
-            <span className="font-lc-moji-a text-white text-[5.375rem] md:text-[6.5rem] lg:text-[7.5rem] xl:text-[9rem]">
+            <span className="font-lc-moji-a text-white text-[5.375rem] md:text-[6.5rem] lg:text-[7.5rem] xl:text-[9rem] text-nowrap">
               Work
             </span>
             <span className="inline-block size-16 rounded-full bg-brand-jaffa"></span>
-            <span className="font-lc-moji-a text-white text-[5.375rem] md:text-[6.5rem] lg:text-[7.5rem] xl:text-[9rem]">
+            <span className="font-lc-moji-a text-white text-[5.375rem] md:text-[6.5rem] lg:text-[7.5rem] xl:text-[9rem] text-nowrap">
               Work
             </span>
             <span className="inline-block size-16 rounded-full bg-brand-eminence"></span>
